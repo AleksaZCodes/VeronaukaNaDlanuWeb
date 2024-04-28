@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="flex justify-between items-center py-2 px-3 text-primary bg-background font-areal font-bold text-2xl sticky top-0"
-  >
-    <h1>{{ $route.meta.naslov }}</h1>
+  <div class="flex justify-between items-center py-2 px-3 bg-background sticky top-0">
+    <h1 class="font-areal font-bold text-3xl text-primary">{{ $route.meta.naslov }}</h1>
 
     <div class="flex justify-center items-center">
       <!-- Dobrodosli -->
