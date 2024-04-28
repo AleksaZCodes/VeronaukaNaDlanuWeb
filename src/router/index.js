@@ -6,7 +6,31 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'landing',
+      component: HomeView,
+    },
+    {
+      path: '/app',
       name: 'home',
+      meta: {
+        naslov: 'Помаже Бог!'
+      },
+      component: HomeView,
+    },
+    {
+      path: '/app/dobrodosli',
+      name: 'dobrodosli',
+      meta: {
+        naslov: 'Добродошли!'
+      },
+      component: HomeView,
+    },
+    {
+      path: '/app/informacije',
+      name: 'informacije',
+      meta: {
+        naslov: 'Информације'
+      },
       component: HomeView
     }
   ]
