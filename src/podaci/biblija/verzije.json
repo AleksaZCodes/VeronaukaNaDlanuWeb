@@ -1,6 +1,8 @@
 [
   {
     "naslov": "Свето Писмо (Светосавље)",
-    "lokacija": "svetosavlje"
+    "izvor": "Светосавље",
+    "lokacija": "svetosavlje",
+    "id": 0
   }
 ]

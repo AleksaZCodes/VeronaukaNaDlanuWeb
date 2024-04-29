@@ -1,398 +1,398 @@
 [
   {
     "naslov": "Прва књига Мојсијева (Постање)",
-    "lokacija": "knjige/knjiga-1.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Законске књиге"
+    "potkategorija": "Законске књиге",
+    "id": 0
   },
   {
     "naslov": "Друга књига Мојсијева (Излазак)",
-    "lokacija": "knjige/knjiga-2.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Законске књиге"
+    "potkategorija": "Законске књиге",
+    "id": 1
   },
   {
     "naslov": "Трећа књига Мојсијева (Левитска)",
-    "lokacija": "knjige/knjiga-3.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Законске књиге"
+    "potkategorija": "Законске књиге",
+    "id": 2
   },
   {
     "naslov": "Четврта књига Мојсијева (Бројеви)",
-    "lokacija": "knjige/knjiga-4.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Законске књиге"
+    "potkategorija": "Законске књиге",
+    "id": 3
   },
   {
     "naslov": "Пета књига Мојсијева (Поновљени закони)",
-    "lokacija": "knjige/knjiga-5.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Законске књиге"
+    "potkategorija": "Законске књиге",
+    "id": 4
   },
   {
     "naslov": "Књига Исуса Навина",
-    "lokacija": "knjige/knjiga-6.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 5
   },
   {
     "naslov": "Књига о судијама",
-    "lokacija": "knjige/knjiga-7.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 6
   },
   {
     "naslov": "Књига о Рути",
-    "lokacija": "knjige/knjiga-8.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 7
   },
   {
     "naslov": "Прва књига Самуилова (Прва књига о царевима)",
-    "lokacija": "knjige/knjiga-9.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 8
   },
   {
     "naslov": "Друга књига Самуилова (Друга књига о царевима)",
-    "lokacija": "knjige/knjiga-10.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 9
   },
   {
     "naslov": "Прва књига о царевима (Трећа књига о царевима)",
-    "lokacija": "knjige/knjiga-11.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 10
   },
   {
     "naslov": "Друга књига о царевима (Четврта књига о царевима)",
-    "lokacija": "knjige/knjiga-12.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 11
   },
   {
     "naslov": "Прва књига дневника",
-    "lokacija": "knjige/knjiga-13.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 12
   },
   {
     "naslov": "Друга књига дневника",
-    "lokacija": "knjige/knjiga-14.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 13
   },
   {
     "naslov": "Прва књига Јездрина",
-    "lokacija": "knjige/knjiga-15.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 14
   },
   {
     "naslov": "Књига Немијина",
-    "lokacija": "knjige/knjiga-16.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 15
   },
   {
     "naslov": "Књига о Јестири",
-    "lokacija": "knjige/knjiga-17.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Историјске књиге"
+    "potkategorija": "Историјске књиге",
+    "id": 16
   },
   {
     "naslov": "Књига о Јову",
-    "lokacija": "knjige/knjiga-18.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Поучне књиге"
+    "potkategorija": "Поучне књиге",
+    "id": 17
   },
   {
     "naslov": "Псалми Давидови",
-    "lokacija": "knjige/knjiga-19.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Поучне књиге"
+    "potkategorija": "Поучне књиге",
+    "id": 18
   },
   {
     "naslov": "Приче Соломонове",
-    "lokacija": "knjige/knjiga-20.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Поучне књиге"
+    "potkategorija": "Поучне књиге",
+    "id": 19
   },
   {
     "naslov": "Књига проповједникова",
-    "lokacija": "knjige/knjiga-21.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Поучне књиге"
+    "potkategorija": "Поучне књиге",
+    "id": 20
   },
   {
     "naslov": "Пјесма над пјесмама",
-    "lokacija": "knjige/knjiga-22.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Поучне књиге"
+    "potkategorija": "Поучне књиге",
+    "id": 21
   },
   {
     "naslov": "Књига пророка Исаије",
-    "lokacija": "knjige/knjiga-23.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге великих пророка"
+    "potkategorija": "Пророчке књиге великих пророка",
+    "id": 22
   },
   {
     "naslov": "Књига пророка Јеремије",
-    "lokacija": "knjige/knjiga-24.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге великих пророка"
+    "potkategorija": "Пророчке књиге великих пророка",
+    "id": 23
   },
   {
     "naslov": "Плач Јеремијин",
-    "lokacija": "knjige/knjiga-25.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге великих пророка"
+    "potkategorija": "Пророчке књиге великих пророка",
+    "id": 24
   },
   {
     "naslov": "Књига пророка Језекиља",
-    "lokacija": "knjige/knjiga-26.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге великих пророка"
+    "potkategorija": "Пророчке књиге великих пророка",
+    "id": 25
   },
   {
     "naslov": "Књига пророка Данила",
-    "lokacija": "knjige/knjiga-27.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге великих пророка"
+    "potkategorija": "Пророчке књиге великих пророка",
+    "id": 26
   },
   {
     "naslov": "Књига пророка Осије",
-    "lokacija": "knjige/knjiga-28.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 27
   },
   {
     "naslov": "Књига пророка Јоила",
-    "lokacija": "knjige/knjiga-29.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 28
   },
   {
     "naslov": "Књига пророка Амоса",
-    "lokacija": "knjige/knjiga-30.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 29
   },
   {
     "naslov": "Књига пророка Авдије",
-    "lokacija": "knjige/knjiga-31.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 30
   },
   {
     "naslov": "Књига пророка Јоне",
-    "lokacija": "knjige/knjiga-32.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 31
   },
   {
     "naslov": "Књига пророка Михеја",
-    "lokacija": "knjige/knjiga-33.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 32
   },
   {
     "naslov": "Књига пророка Наума",
-    "lokacija": "knjige/knjiga-34.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 33
   },
   {
     "naslov": "Књига пророка Авакума",
-    "lokacija": "knjige/knjiga-35.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 34
   },
   {
     "naslov": "Књига пророка Софоније",
-    "lokacija": "knjige/knjiga-36.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 35
   },
   {
     "naslov": "Књига пророка Агеја",
-    "lokacija": "knjige/knjiga-37.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 36
   },
   {
     "naslov": "Књига пророка Захарије",
-    "lokacija": "knjige/knjiga-38.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 37
   },
   {
     "naslov": "Књига пророка Малахије",
-    "lokacija": "knjige/knjiga-39.json",
     "kategorija": "Стари Завет",
-    "potkategorija": "Пророчке књиге малих пророка"
+    "potkategorija": "Пророчке књиге малих пророка",
+    "id": 38
   },
   {
     "naslov": "Свето Јеванђеље од Матеја",
-    "lokacija": "knjige/knjiga-40.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Законске књиге (Свето Јеванђеље)"
+    "potkategorija": "Законске књиге (Свето Јеванђеље)",
+    "id": 39
   },
   {
     "naslov": "Свето Јеванђеље од Марка",
-    "lokacija": "knjige/knjiga-41.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Законске књиге (Свето Јеванђеље)"
+    "potkategorija": "Законске књиге (Свето Јеванђеље)",
+    "id": 40
   },
   {
     "naslov": "Свето Јеванђеље од Луке",
-    "lokacija": "knjige/knjiga-42.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Законске књиге (Свето Јеванђеље)"
+    "potkategorija": "Законске књиге (Свето Јеванђеље)",
+    "id": 41
   },
   {
     "naslov": "Свето Јеванђеље од Јована",
-    "lokacija": "knjige/knjiga-43.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Законске књиге (Свето Јеванђеље)"
+    "potkategorija": "Законске књиге (Свето Јеванђеље)",
+    "id": 42
   },
   {
     "naslov": "Дјела Светих апостола",
-    "lokacija": "knjige/knjiga-44.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Историјска књига"
+    "potkategorija": "Историјска књига",
+    "id": 43
   },
   {
     "naslov": "Посланица Св. апостола Павла Римљанима",
-    "lokacija": "knjige/knjiga-45.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 44
   },
   {
     "naslov": "Прва посланица Св. апостола Павла Коринћанима",
-    "lokacija": "knjige/knjiga-46.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 45
   },
   {
     "naslov": "Друга посланица Св. апостола Павла Коринћанима",
-    "lokacija": "knjige/knjiga-47.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 46
   },
   {
     "naslov": "Посланица Св. апостола Павла Галатима",
-    "lokacija": "knjige/knjiga-48.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 47
   },
   {
     "naslov": "Посланица Св. апостола Павла Ефесцима",
-    "lokacija": "knjige/knjiga-49.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 48
   },
   {
     "naslov": "Посланица Св. апостола Павла Филипљанима",
-    "lokacija": "knjige/knjiga-50.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 49
   },
   {
     "naslov": "Посланица Св. апостола Павла Колошанима",
-    "lokacija": "knjige/knjiga-51.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 50
   },
   {
     "naslov": "Прва посланица Св. апостола Павла Солуњанима",
-    "lokacija": "knjige/knjiga-52.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 51
   },
   {
     "naslov": "Друга посланица Св. апостола Павла Солуњанима",
-    "lokacija": "knjige/knjiga-53.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 52
   },
   {
     "naslov": "Прва посланица Св. апостола Павла Тимотеју",
-    "lokacija": "knjige/knjiga-54.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 53
   },
   {
     "naslov": "Друга посланица Св. апостола Павла Тимотеју",
-    "lokacija": "knjige/knjiga-55.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 54
   },
   {
     "naslov": "Посланица Св. апостола Павла Титу",
-    "lokacija": "knjige/knjiga-56.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 55
   },
   {
     "naslov": "Посланица Св. апостола Павла Филимону",
-    "lokacija": "knjige/knjiga-57.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 56
   },
   {
     "naslov": "Посланица Св. апостола Павла Јеврејима",
-    "lokacija": "knjige/knjiga-58.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)"
+    "potkategorija": "Поучне књиге (посланице Светог Апостола Павла)",
+    "id": 57
   },
   {
     "naslov": "Саборна посланица Св. апостола Јакова",
-    "lokacija": "knjige/knjiga-59.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 58
   },
   {
     "naslov": "Прва саборна посланица Св. апостола Петра",
-    "lokacija": "knjige/knjiga-60.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 59
   },
   {
     "naslov": "Друга саборна посланица Св. апостола Петра",
-    "lokacija": "knjige/knjiga-61.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 60
   },
   {
     "naslov": "Прва саборна посланица Св. апостола Јована Богослова",
-    "lokacija": "knjige/knjiga-62.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 61
   },
   {
     "naslov": "Друга саборна посланица Св. апостола Јована Богослова",
-    "lokacija": "knjige/knjiga-63.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 62
   },
   {
     "naslov": "Трећа саборна посланица Св. апостола Јована Богослова",
-    "lokacija": "knjige/knjiga-64.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 63
   },
   {
     "naslov": "Саборна посланица Св. апостола Јуде (Јаковљевог)",
-    "lokacija": "knjige/knjiga-65.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Поучне књиге (саборне посланице)"
+    "potkategorija": "Поучне књиге (саборне посланице)",
+    "id": 64
   },
   {
     "naslov": "Откривење Светога Јована Богослова",
-    "lokacija": "knjige/knjiga-66.json",
     "kategorija": "Нови Завет",
-    "potkategorija": "Пророчка књига"
+    "potkategorija": "Пророчка књига",
+    "id": 65
   }
 ]
