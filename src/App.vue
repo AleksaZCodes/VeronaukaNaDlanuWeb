@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col h-screen justify-between">
     <AppBar v-if="$route.meta.indeks !== undefined" />
-    <RouterView />
+    <RouterView class="flex-auto" />
     <BottomNavigationBar v-if="$route.meta.indeks !== undefined" />
   </div>
 </template>
