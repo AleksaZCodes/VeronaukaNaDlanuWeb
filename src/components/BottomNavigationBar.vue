@@ -8,10 +8,11 @@
         :to="{ name: r.name }"
       >
         <IconButton
-          :icon="[
-            r.meta.ikonica,
-            r.meta.naslov === $route.meta.naslov ? 'text-primary' : 'text-outlineVariant'
-          ]"
+          :icon="
+            r.meta.ikonica +
+            ' ' +
+            (r.meta.naslov === $route.meta.naslov ? 'text-primary' : 'text-outlineVariant')
+          "
         />
       </RouterLink>
     </div>
