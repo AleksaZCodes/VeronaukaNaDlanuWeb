@@ -6,9 +6,9 @@
         <label class="italic text-sm">{{ label }}</label>
       </div>
       <slot></slot>
-      <RouterLink :to="{ name: link }" class="text-primary italic underline text-sm">{{
-        linkText
-      }}</RouterLink>
+      <RouterLink :to="{ name: link }" class="text-primary italic underline text-sm"
+        ><label class="italic text-sm">{{ linkText }}</label></RouterLink
+      >
     </CardPlain>
   </div>
 </template>
