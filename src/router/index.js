@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'landing',
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app',
@@ -17,7 +17,7 @@ const router = createRouter({
         ikonica: 'fa-solid fa-house',
         indeks: 0
       },
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app/molitve',
@@ -27,7 +27,7 @@ const router = createRouter({
         ikonica: 'fa-solid fa-person-praying',
         indeks: 1
       },
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app/sveto-pismo',
@@ -37,7 +37,7 @@ const router = createRouter({
         ikonica: 'fa-solid fa-book-bible',
         indeks: 2
       },
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app/kalendar',
@@ -47,7 +47,7 @@ const router = createRouter({
         ikonica: 'fa-solid fa-calendar',
         indeks: 3
       },
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app/dobra-dela',
@@ -57,7 +57,7 @@ const router = createRouter({
         ikonica: 'fa-solid fa-hand-holding-heart',
         indeks: 4
       },
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app/dobrodosli',
@@ -65,7 +65,7 @@ const router = createRouter({
       meta: {
         naslov: 'Добродошли!'
       },
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/app/informacije',
