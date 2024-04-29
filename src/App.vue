@@ -1,8 +1,8 @@
 <template>
   <div>
-    <AppBar />
+    <AppBar v-if="$route.meta.indeks !== undefined" />
     <RouterView />
-    <BottomNavigationBar />
+    <BottomNavigationBar v-if="$route.meta.indeks !== undefined" />
   </div>
 </template>
 
