@@ -1,10 +1,11 @@
 <template>
-  <div class="absolute bottom-0 mt-1 bg-background">
-    <div class="flex justify-around items-center w-screen py-4">
+  <div class="sticky bottom-0">
+    <div class="h-4 bg-gradient-to-t from-background to-transparent"></div>
+    <div class="flex justify-around items-center w-screen py-3 bg-background">
       <RouterLink v-for="r in sortRoutes($router.getRoutes())" :key="r.name" :to="{ name: r.name }">
         <IconButton
           :icon="r.meta.ikonica"
-          :class="r.meta.naslov === $route.meta.naslov ? 'text-primary' : 'text-surfaceVariant'"
+          :class="r.meta.naslov === $route.meta.naslov ? 'text-primary' : 'text-outlineVariant'"
         />
       </RouterLink>
     </div>
