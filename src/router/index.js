@@ -44,7 +44,7 @@ const router = createRouter({
       name: 'kalendar',
       meta: {
         naslov: 'Календар',
-        ikonica: 'fa-solid fa-calendar',
+        ikonica: 'fa-regular fa-calendar',
         indeks: 3
       },
       component: HomeView
