@@ -21,6 +21,7 @@ const lightColorScheme = {
   onSurface: '#1F1C00',
   surfaceVariant: '#ECE1CF',
   onSurfaceVariant: '#4C4639',
+  card: '#F8F2F2',
   outline: '#7E7667',
   onInverseSurface: '#FFF48E',
   inverseSurface: '#363100',
