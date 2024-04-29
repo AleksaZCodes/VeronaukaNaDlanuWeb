@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute bottom-0">
+  <div class="absolute bottom-0 mt-1 bg-background">
     <div class="flex justify-around items-center w-screen py-4">
       <RouterLink v-for="r in sortRoutes($router.getRoutes())" :key="r.name" :to="{ name: r.name }">
         <IconButton
