@@ -1,8 +1,8 @@
 <template>
   <div>
     <CardPlain class="mx-3">
-      <div class="grid grid-cols-10 items-center">
-        <div class="flex flex-col col-span-9">
+      <div class="flex justify-between items-center">
+        <div class="flex flex-col min-w-0">
           <h2 class="text-primary font-bold">{{ props.title }}</h2>
           <label class="italic text-sm truncate">{{ props.text }}</label>
         </div>
