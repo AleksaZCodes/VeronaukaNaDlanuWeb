@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center p-1 cursor-pointer text-primary text-2xl">
+  <div class="flex justify-center py-1 px-2 cursor-pointer text-primary text-2xl">
     <i :class="props.icon"></i>
   </div>
 </template>

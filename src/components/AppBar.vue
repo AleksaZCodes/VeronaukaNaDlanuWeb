@@ -6,7 +6,7 @@
       <div class="flex justify-center items-center">
         <!-- Dobrodosli -->
         <RouterLink :to="{ name: 'dobrodosli' }">
-          <IconButton icon="fa-regular fa-circle-question" class="mr-6" />
+          <IconButton icon="fa-regular fa-circle-question" class="mr-3" />
         </RouterLink>
         <!-- Informacije -->
         <RouterLink :to="{ name: 'informacije' }">
