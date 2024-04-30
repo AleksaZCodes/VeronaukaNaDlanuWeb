@@ -33,3 +33,7 @@
 body {
   @apply bg-background font-areal text-onBackground;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
