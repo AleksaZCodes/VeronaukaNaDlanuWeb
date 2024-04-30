@@ -2,14 +2,16 @@
   <div class="flex flex-col h-screen justify-between">
     <div>
       <AppBar :title="$route.meta.naslov" v-if="$route.meta.appBar !== undefined">
-        <!-- Dobrodosli -->
-        <RouterLink :to="{ name: 'dobrodosli' }">
-          <IconButton icon="fa-regular fa-circle-question" class="mr-3" />
-        </RouterLink>
-        <!-- Informacije -->
-        <RouterLink :to="{ name: 'informacije' }">
-          <IconButton icon="fa-solid fa-ellipsis-vertical"
-        /></RouterLink>
+        <template v-slot:trailing>
+          <!-- Dobrodosli -->
+          <RouterLink :to="{ name: 'dobrodosli' }">
+            <IconButton icon="fa-regular fa-circle-question" class="mr-3" />
+          </RouterLink>
+          <!-- Informacije -->
+          <RouterLink :to="{ name: 'informacije' }">
+            <IconButton icon="fa-solid fa-ellipsis-vertical"
+          /></RouterLink>
+        </template>
       </AppBar>
       <RouterView />
     </div>
