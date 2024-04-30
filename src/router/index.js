@@ -15,7 +15,9 @@ const router = createRouter({
       meta: {
         naslov: 'Помаже Бог!',
         ikonica: 'fa-solid fa-house',
-        indeks: 0
+        indeks: 0,
+        appBar: true,
+        bottomNavigationBar: true
       },
       component: HomeView
     },
@@ -25,7 +27,9 @@ const router = createRouter({
       meta: {
         naslov: 'Молитве',
         ikonica: 'fa-solid fa-person-praying',
-        indeks: 1
+        indeks: 1,
+        appBar: true,
+        bottomNavigationBar: true
       },
       component: HomeView
     },
@@ -35,7 +39,9 @@ const router = createRouter({
       meta: {
         naslov: 'Свето Писмо',
         ikonica: 'fa-solid fa-book-bible',
-        indeks: 2
+        indeks: 2,
+        appBar: true,
+        bottomNavigationBar: true
       },
       component: HomeView
     },
@@ -45,7 +51,9 @@ const router = createRouter({
       meta: {
         naslov: 'Календар',
         ikonica: 'fa-regular fa-calendar',
-        indeks: 3
+        indeks: 3,
+        appBar: true,
+        bottomNavigationBar: true
       },
       component: HomeView
     },
@@ -55,7 +63,9 @@ const router = createRouter({
       meta: {
         naslov: 'Добра дела',
         ikonica: 'fa-solid fa-hand-holding-heart',
-        indeks: 4
+        indeks: 4,
+        appBar: true,
+        bottomNavigationBar: true
       },
       component: HomeView
     },

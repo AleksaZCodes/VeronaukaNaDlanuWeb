@@ -1,13 +1,23 @@
 <template>
   <div class="flex flex-col h-screen justify-between">
-    <AppBar v-if="$route.meta.indeks !== undefined" />
+    <AppBar :title="$route.meta.naslov" v-if="$route.meta.appBar !== undefined">
+      <!-- Dobrodosli -->
+      <RouterLink :to="{ name: 'dobrodosli' }">
+        <IconButton icon="fa-regular fa-circle-question" class="mr-3" />
+      </RouterLink>
+      <!-- Informacije -->
+      <RouterLink :to="{ name: 'informacije' }">
+        <IconButton icon="fa-solid fa-ellipsis-vertical"
+      /></RouterLink>
+    </AppBar>
     <RouterView class="flex-auto" />
-    <BottomNavigationBar v-if="$route.meta.indeks !== undefined" />
+    <BottomNavigationBar v-if="$route.meta.bottomNavigationBar !== undefined" />
   </div>
 </template>
 
 <script setup>
-import { RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 import AppBar from './components/AppBar.vue'
 import BottomNavigationBar from './components/BottomNavigationBar.vue'
+import IconButton from './components/IconButton.vue'
 </script>
