@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import MolitveView from '@/views/Molitve/MolitveView.vue'
 import MolitvaView from '@/views/Molitve/MolitvaView.vue'
+import BiblijaView from '@/views/BiblijaView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,7 +46,7 @@ const router = createRouter({
         appBar: true,
         bottomNavigationBar: true
       },
-      component: HomeView
+      component: BiblijaView
     },
     {
       path: '/app/kalendar',

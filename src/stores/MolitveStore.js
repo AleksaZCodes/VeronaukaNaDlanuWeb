@@ -21,5 +21,13 @@ export const useMolitveStore = defineStore('molitve', {
       const molitva = this.molitve.find((molitva) => molitva.id === id)
       molitva.zakacena = !molitva.zakacena
     }
+  },
+  persist: {
+    enabled: true,
+    strategies: [
+      {
+        storage: localStorage
+      }
+    ]
   }
 })
