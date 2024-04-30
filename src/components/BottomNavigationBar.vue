@@ -23,6 +23,6 @@
 import IconButton from './IconButton.vue'
 
 const sortRoutes = (routes) => {
-  return routes.filter((r) => r.meta.ikonica).sort((a, b) => a.meta.indeks > b.meta.indeks)
+  return routes.filter((r) => r.meta.ikonica).sort((a, b) => a.meta.indeks - b.meta.indeks)
 }
 </script>
