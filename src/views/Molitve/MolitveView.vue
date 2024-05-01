@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col px-3 gap-3 md:grid md:grid-cols-2 lg:grid-cols-3">
+  <div class="flex flex-col px-3 gap-3">
     <MolitvaItem v-for="molitva in molitveStore.zakacene" :key="molitva.id" :molitva="molitva" />
     <MolitvaItem v-for="molitva in molitveStore.ostale" :key="molitva.id" :molitva="molitva" />
   </div>
