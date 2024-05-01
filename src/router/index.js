@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import MolitveView from '@/views/Molitve/MolitveView.vue'
 import MolitvaView from '@/views/Molitve/MolitvaView.vue'
-import BiblijaView from '@/views/BiblijaView.vue'
+import BiblijaView from '@/views/Biblija/BiblijaView.vue'
+import KnjigaView from '@/views/Biblija/KnjigaView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +93,11 @@ const router = createRouter({
       path: '/app/molitve/:ids+',
       name: 'molitva',
       component: MolitvaView
+    },
+    {
+      path: '/app/sveto-pismo/:idVerzije/:idKnjige/:idPoglavlja',
+      name: 'knjiga',
+      component: KnjigaView
     }
   ]
 })
