@@ -15,7 +15,7 @@
     class="cursor-pointer"
   >
     <IconButton
-      @click.stop="biblijaStore.toggleZakacenaKnjiga(knjiga.id, 0, biblijaStore.idIzabraneVerzije)"
+      @click.stop="biblijaStore.toggleZakacenaKnjiga(biblijaStore.idIzabraneVerzije, knjiga.id, 0)"
       :icon="`text-xl fa-bookmark ${knjiga.zakacena ? 'fa-solid' : 'fa-regular'}`"
     />
   </CardItem>
