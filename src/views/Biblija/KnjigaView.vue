@@ -25,7 +25,7 @@
               :index="index + 1"
             />
           </div>
-          <label class="text-primary italic">Извор: {{ verzija.izvor }}</label>
+          <label class="text-primary italic mx-4">Извор: {{ verzija.izvor }}</label>
         </div>
       </CardPlain>
     </div>
@@ -36,6 +36,7 @@
       :id-verzije="idVerzije"
       :id-knjige="idKnjige"
       :id-poglavlja="idPoglavlja"
+      :broj-poglavlja="knjiga.length"
     />
   </div>
 </template>
@@ -46,26 +47,32 @@ import IconButton from '@/components/IconButton.vue'
 import { useBiblijaStore } from '@/stores/BiblijaStore'
 import CardPlain from '@/components/CardPlain.vue'
 import { RouterLink, useRoute } from 'vue-router'
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import StihItem from './StihItem.vue'
 import KontroleBar from './KontroleBar.vue'
 
 const biblijaStore = useBiblijaStore()
 const route = useRoute()
 
-const idVerzije = parseInt(route.params.idVerzije)
-const idKnjige = parseInt(route.params.idKnjige)
-const idPoglavlja = parseInt(route.params.idPoglavlja)
+const idVerzije = computed(() => parseInt(route.params.idVerzije))
+const idKnjige = computed(() => parseInt(route.params.idKnjige))
+const idPoglavlja = computed(() => parseInt(route.params.idPoglavlja))
 
-const verzija = biblijaStore.verzije.find((verzija) => verzija.id === idVerzije)
-const knjigaInfo = biblijaStore[`knjige${idVerzije}`].find((knjiga) => knjiga.id === idKnjige)
-
-const naslovPoglavlja = `${idPoglavlja + 1}. ${knjigaInfo.naslov}`
+const verzija = computed(() =>
+  biblijaStore.verzije.find((verzija) => verzija.id === idVerzije.value)
+)
+const knjigaInfo = computed(() =>
+  biblijaStore[`knjige${idVerzije.value}`].find((knjiga) => knjiga.id === idKnjige.value)
+)
 
 const knjiga = ref([])
+const poglavlje = computed(() => knjiga.value[idPoglavlja.value])
+const naslovPoglavlja = computed(() => `${idPoglavlja.value + 1}. ${poglavlje.value.naslov}`)
 
 const ucitajKnjigu = async () => {
-  knjiga.value = (await import(`../../podaci/biblija/${idVerzije}/knjige/${idKnjige}.json`)).default
+  knjiga.value = (
+    await import(`../../podaci/biblija/${idVerzije.value}/knjige/${idKnjige.value}.json`)
+  ).default
 }
 
 ucitajKnjigu()
