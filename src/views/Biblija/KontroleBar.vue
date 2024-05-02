@@ -14,14 +14,16 @@
         <IconButton icon="fa-solid fa-arrow-left" />
       </CardPlain>
     </RouterLink>
-    <CardPlain class="min-w-0">
+
+    <CardPlain class="flex-auto min-w-0">
       <div class="p-1">
         <h2 class="italic text-primary truncate">{{ naslovPoglavlja }}</h2>
       </div>
     </CardPlain>
+
     <CardPlain>
       <IconButton
-        @click="biblijaStore.toggleZakacenaKnjiga(idKnjige, idPoglavlja)"
+        @click="biblijaStore.toggleZakacenaKnjiga(idVerzije, idKnjige, idPoglavlja)"
         :icon="`fa-bookmark ${knjiga.zakacena ? 'fa-solid' : 'fa-regular'}`"
       />
     </CardPlain>
@@ -47,6 +49,7 @@ import BottomBar from '@/components/BottomBar.vue'
 import CardPlain from '@/components/CardPlain.vue'
 import IconButton from '@/components/IconButton.vue'
 import { useBiblijaStore } from '@/stores/BiblijaStore'
+import { computed } from 'vue'
 
 const props = defineProps({
   naslovPoglavlja: String,
@@ -62,7 +65,8 @@ const knjiga = biblijaStore[`knjige${props.idVerzije}`].find(
 )
 
 const brojPoglavlja = props.brojPoglavlja
-const idPrethodnogPoglavlja =
-  (((props.idPoglavlja - 1) % brojPoglavlja) + brojPoglavlja) % brojPoglavlja
-const idSledecegPoglavlja = (props.idPoglavlja + 1) % brojPoglavlja
+const idPrethodnogPoglavlja = computed(
+  () => (((props.idPoglavlja - 1) % brojPoglavlja) + brojPoglavlja) % brojPoglavlja
+)
+const idSledecegPoglavlja = computed(() => (props.idPoglavlja + 1) % brojPoglavlja)
 </script>
