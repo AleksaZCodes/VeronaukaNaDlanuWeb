@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import verzije from '@/podaci/biblija/verzije.json'
 import knjige0 from '@/podaci/biblija/0/knjige.json'
 
-export const useBiblijaStore = defineStore('molitve', {
+export const useBiblijaStore = defineStore('biblija', {
   state: () => ({
     verzije,
     idIzabraneVerzije: 0,
