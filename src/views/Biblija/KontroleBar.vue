@@ -52,17 +52,17 @@ const props = defineProps({
   naslovPoglavlja: String,
   idVerzije: Number,
   idKnjige: Number,
-  idPoglavlja: Number
+  idPoglavlja: Number,
+  brojPoglavlja: Number
 })
 
-const idVerzije = parseInt(props.idVerzije)
-const idKnjige = parseInt(props.idKnjige)
-const idPoglavlja = parseInt(props.idPoglavlja)
-
 const biblijaStore = useBiblijaStore()
-const knjiga = biblijaStore[`knjige${idVerzije}`].find((knjiga) => knjiga.id == idKnjige)
+const knjiga = biblijaStore[`knjige${props.idVerzije}`].find(
+  (knjiga) => knjiga.id === props.idKnjige
+)
 
-const poglavlja = knjiga.length
-const idPrethodnogPoglavlja = (((idPoglavlja - 1) % poglavlja) + poglavlja) % poglavlja
-const idSledecegPoglavlja = (idPoglavlja + 1) % poglavlja
+const brojPoglavlja = props.brojPoglavlja
+const idPrethodnogPoglavlja =
+  (((props.idPoglavlja - 1) % brojPoglavlja) + brojPoglavlja) % brojPoglavlja
+const idSledecegPoglavlja = (props.idPoglavlja + 1) % brojPoglavlja
 </script>
