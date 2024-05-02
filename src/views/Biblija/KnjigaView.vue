@@ -62,11 +62,10 @@ const knjigaInfo = biblijaStore[`knjige${idVerzije}`].find((knjiga) => knjiga.id
 
 const naslovPoglavlja = `${idPoglavlja + 1}. ${knjigaInfo.naslov}`
 
-const path = `../../podaci/biblija/${idVerzije}/knjige/${idKnjige}.json`
 const knjiga = ref([])
 
 const ucitajKnjigu = async () => {
-  knjiga.value = (await import(path)).default
+  knjiga.value = (await import(`../../podaci/biblija/${idVerzije}/knjige/${idKnjige}.json`)).default
 }
 
 ucitajKnjigu()
