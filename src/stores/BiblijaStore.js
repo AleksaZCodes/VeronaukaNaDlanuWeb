@@ -15,6 +15,9 @@ export const useBiblijaStore = defineStore('biblija', {
     zakaceneKnjige() {
       return this.sveKnjige.filter((knjiga) => knjiga.zakacena)
     },
+    zakaceneKnjigePocetna() {
+      return [...this.zakaceneKnjige, ...this.ostaleKnjige].slice(0, 3)
+    },
     ostaleKnjige() {
       return this.sveKnjige.filter((knjiga) => !knjiga.zakacena)
     }
